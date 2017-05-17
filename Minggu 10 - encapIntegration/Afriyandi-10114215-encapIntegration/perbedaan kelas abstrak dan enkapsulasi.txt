@@ -1,0 +1,8 @@
+Perbedaan antara kelas abstrak dengan kelas enkapsulasi dari sisi data hiding:
+ 	kelas abstrak: hanya dapat diubah fungsi/methodnya pada kelas turunannya.
+	kelas dienkapsulasi : untuk menyembunyikan informasi pada pengguna dengan menggunakan keyword private pada elemen
+			      data. pemberian hak akses berupa getter dan setter.
+			      
+pada main program: keduanya dapat dijalankan.
+kelas yang dienkapsulasi dapat diubah informasinya sesuai dengan hak akses yang diberikan tanpa mempengaruhi secara permanen
+informasi asli pada elemen yang disembunyikan 
