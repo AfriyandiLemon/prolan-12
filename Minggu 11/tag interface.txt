@@ -1,0 +1,8 @@
+alasan membuat tag interface adalah 
+pada kondisi dimana kita akan menggunakan objek pada java yang sudah lama tidak digunakan 
+tidak terhapus secara otomatis oleh collector java.
+fungsinya adalah untuk menyimpan objek dari kelas dan dapat menggunakannya bahkan pada saat Java Virtual Machine
+mati/tidak running.
+tag interface dapat digunakan juga pada immutable objects
+immutable objects : sebuah objek dimana state nya tidak dapat berubah setelah di konstruksikan.
+cth immutable objects dari JDK : String dan Integer.
