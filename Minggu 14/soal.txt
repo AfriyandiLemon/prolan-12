@@ -1,0 +1,6 @@
+buat min 3 method generic dan minimal 1 metode yg memiliki lbh dari 1 tipe
+contoh: private static <T,N> void namaMehod(T x, N y)
+
+buat kelas generic baku dengan 2 method generic dan 1 method native di dalamnya
+
+buat method generic yang berparameter satu atau lebih objek
