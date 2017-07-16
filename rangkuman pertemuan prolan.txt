@@ -1,0 +1,213 @@
+|NIM 	: 10114215			|
+|NAMA	: Afriyandi Jaya Pranata	|
+|KELAS	: PROLAN 12			|
+|--------------------------------------	|
+
+________________________________________________________________________________________________________________
+|pertemuan| 	materi		 	|       penjelasan				|	folder github  |
+================================================================================================================
+|I(teori)| -intro perkuliahan   	|- peraturan perkuliahan			|			|
+|        | - intro java			|- sejarah java, pengenalan			|			|
+|	 |				|						|			|
+|(lab)	 | - setting java di computer	|- penggunaan java via cmd (command prompt),	|        minggu 1	|
+| 	 |				| eksekusi normal program java			|			|
+|	 | - membuat program 'hello	|- membuat nama file sesuai			|			|
+|	 |	world'			| dgn nama class dan tulis			|			|
+|	 |				| System.out.print("hello world"		|			|
+|	 |				| ); disave dan eksekusi via 			|			|
+|	 |				|  cmd						|			|
+|        |				|						|			|
+|---------------------------------------------------------------------------------------------------------------|
+|II	 |- pengenalan oop		|- cara pandang melihat segala 			|			|
+|(teori) |				| sesuatu sebagai objek				|			|
+| 	 |				|						|			|
+|	 |-perbandingan oop dengan prose|- OO dimulai dengan analisa suatu		|			|
+|	 |  dural			| objek, bisa apa aja, relasi			|			|
+|	 |				| dengan komponen lain. sedangkan		|			|
+|	 |				| prosedural memulai analisis 			|			|
+|	 |				| sesuatu langsung pada komponen 		|			|
+|        |				| masalah.					|			|
+|	 |- pengenalan class		|- membuat contoh sebuah class segala sesuatu 	|	Minggu 2	|
+|	 |				| dijadikan sebagai	objek			|			|
+|(lab)	 | pengenalan input-output	|- macam-macam input berupa nextLine 		|			|
+|	 |				| (string), nextInt(integer),dll		|			|
+|	 |				|						|			|
+|	 |				|- jenis input dari oleh developer		|			|
+|	 |				| dan oleh user. develop seperti		|			|
+|	 |				| System.out.print() dan user			|			|
+|        |				| seperti fitur scanner				|			|
+|	 |				|						|			|
+|---------------------------------------------------------------------------------------------------------------|
+|	 |				|						|			|
+| III 	 |				|						|			|		
+|(teori) |- kelas dan objek		|- kelas adalah klasifikasi dari		|			|
+|	 |				| objek-obhek yang memiliki kesamaan		|			|
+|	 |				| karakteristik dan fungsi.			|			|
+|	 |				| cth: kelas hewan kaki 4			|			|
+|	 |				|     objeknya adalah sapi,			|			|
+|        |				| kambing, kerbau, anjing.			|			|
+|	 |				|						|			|
+|	 |- pendefinisian class dan	| class<nama kelas> dan objek			|			|
+| 	 |	objek			| spt <nama kelas><nama objek>			|			|
+|	 |				| = new <nama kelas>				|			|
+|	 |				|						|			|
+| (lab)	 |- membuat sebuah class dan	|						|	 Minggu 3	|
+|	 | objek dari kelas teori 	|						|			|	
+|	 |- macam-macam tipe data	| tipe data berupa string, int, double,char,	|			|
+|        |				| boolean,float					|			|
+|---------------------------------------------------------------------------------------------------------------|
+|	 |				|						|			|
+| IV	 |				|						|			|
+| (teori)|- method, konstruktor, this	|- method adalah suatu fungsi			|			|
+|	 |  dan atribut			| yang ada pada sebuah kelas			|			|
+|	 |				|- konstruktor, sebuah method			|			|
+|	 |				| yang memiliki nama yang sama dengan		|			|
+|	 |				| kelas						|			|
+|	 |				|- overriding method, method			|			|
+|        |				| dengan nama sama, tp berbeda 			|			|
+|	 |				| fungsi					|			|
+|	 |				|- this digunakan untuk pembedaan		|			|
+|	 |				| var global(class) dengan var			|			|
+|	 |				| lokal(method)					|			|
+|	 |				|- atribut adalah representasi			|			|
+|	 |				| var dan data pada suatu kelas 		|			|
+|	 |				| atau method					|			|
+|	 |				|cth :     int Angka				|			|
+|        |				|	(kelas)	(variabel)			|			|
+|	 |				|						|			|
+|(lab)	 | 				|- update program sebelumnya degan adanya	| 	Minggu 4	|
+| 	 |				| konstruktor, method overriding,this dari	|			|
+|	 |				| 						|			|
+|	 |				|						|			|
+|	 |- macam-macam operator	|- operator aritmatika,operasional,		|			|
+|	 |				| assignment, miscellaneous			|			|
+|	 |				|						|			|
+|---------------------------------------------------------------------------------------------------------------|
+|        |				|						|			|
+|  V	 |				|						|			|
+|(teori) |- inheritance			|- kelas yang punya turunan/mewariskan		|			|
+| 	 |				|  fungsi dan atribut pada kelas turunannya	|			|
+|	 |				|- dimulai dengan keyword 'extends' pada java   |			|
+|	 |				|						|			|
+|	 |- super 			|- mirip degan this, hanya penggu		|			|
+|	 |				| naannya pada konstruktor super		|			|
+|	 |				| class dan turunannya sub class		|			|
+|	 |				|						|			|
+| (lab)  | - latihan ngoding contoh	|- mencari nilai max dan nilai min		| 	minggu 5/lab	|
+|	 | kasus			|						|			|
+|---------------------------------------------------------------------------------------------------------------|
+|	 |				|						|			|
+| 	 |				|						|			|
+|  VI	 | - overriding			|- memodifikasi method pada sub 		|			|
+|(teori) |				| class dari inheritance super			|			|
+|	 |				| class. karena sub class juga 			|			|
+|	 |				| mewarisi method super class 			|			|
+|	 |				|						| 			|
+|(lab)   |- implementasi overriding	|- dimulai dgn @override pada sub		|			|
+|	 | dan super pada konstruktor	| class yang diextends dari super 		| 	minggu 7	|
+|	 |				| class						|			|
+| 	 |- polimorfisme		|- sebuah objek yang dapat menjadi		|			|
+|	 |				| turunan dari reference dari kelas		|			|
+|	 |				| super pada sub class				|			|
+|	 |				|cth: hewan = mamalia				|			|
+|	 |				|    mamalia = kucing				|			|
+|	 |				|    kucing = hewan				|			|
+|        |				|						|			|
+|	 |				|						|			|
+|---------------------------------------------------------------------------------------------------------------|
+|	 |				|						|			|
+| VIII	 |				|						|			|
+|(teori) |-abstraction			|- sebuah proses menyembunyikan			|			|
+|	 |				| detil aksi yang dilakukan. user		|			|
+|	 |				| hanya tau cara pakai saja, 			|			|
+|	 |				| tanpa memperdulikan proses			|			|
+|	 |				| dibalik semua itu				|			|
+|        |				|- pada kelas ditandai dengan keyword		|			|
+|	 |				| 'abstract' setelah modifier			|			|
+|	 |				|- pada method, sebuah method yang		|			|
+|	 |				| tidak memiliki isi proses			|			|
+|	 |				|						|			|
+| (lab)	 |-buat kelas abstract		|- kelas terpisah dengan kelas main		|			|
+|	 |				|- pada main hanya ada objek dan		|	 Minggu 9	|
+|	 |				| pemanggilan					|			|
+|	 |				|						|			|
+|---------------------------------------------------------------------------------------------------------------|
+|  IX    |				|						|			|
+|(teori) |- Encapsulation 		|- konsep menyembunyikan atribut		|			|
+|	 |				| sebuah kelas dari kelas lain			|			|
+|	 |				|- diawali dengan modifier			|			|
+|	 |				| private pada setiap atribut			|			|
+|	 |				|- ditandai dengan adanya setter		|			|
+|	 |				| dan getter					|			|
+|	 |				|- biasa digunakan pada				|			|
+|	 |				| inheritance					|			|
+|        |				|- buat file .txt perbedaan			|			|
+|	 |				| abstract class degan enkapsulasi		|			|
+|	 |				|						|			|
+| (lab)	 |-implementasi enkapsulasi	|						| Minggu 10 - 		|
+|	 | pada program yang udah ada	|						|encapIntegration/	|
+|	 |				|						|Afriyandi-10114215-	|
+|	 |				|						|encapIntegration	|
+| 	 |				|						|			|
+|---------------------------------------------------------------------------------------------------------------|
+|  X	 |				|						|			|
+|(teori) |- Interface			|- nama harus sama dengan file			|			|
+|        |				|- berisi sekumpulan method 			|			|
+|	 |				| abstrak					|			|
+|	 |				|- kelas yang mengimplement			|			|
+|	 |				| interface pasti akan menghinhe		|			|
+|	 |				| rit semua method abstrak pd			|			|
+|	 |				| interface					|			|
+|	 |				|- bentuk sama dengan class			|			|
+|	 |				|- ditandai dgn keyword 			|			|
+|	 |				| 'interface'					|			|
+|        |				|- buat alasan menggunakan tag			|			|
+|	 |				| interface					|			|
+| 	 |				|						|			|
+| (lab)	 |-implementasi interface pd	|						| Minggu 11		|
+|	 | program yg sdh ada		|						|			|
+|	 |				|						|			|
+|---------------------------------------------------------------------------------------------------------------|
+|	 |				|						|			|
+| XI	 |				|						|			|
+|(teori) |- Generic			|- salah satu pembuatan class dan method yang 	|			|
+|        |				| dapat digunakan oleh semua jenis tipe data	|			|
+|	 |				|						|			|
+|	 |				|- deklarasi class dengan '<inisial tipe>' {} 	|			|
+|	 |				| cth : <T> {}					|			|
+|	 |				|- dapat dibuat lebih dari satu tipe		|			|
+|	 |				|						|			|
+|	 |				|						|			|
+| (lab)	 |- membuat kelas generic	|						| Minggu 12		|
+|	 |				|						|			|
+|        |				|						|			|
+|---------------------------------------------------------------------------------------------------------------|
+|	 |				|						|			|
+| XII	 |				|						|			|
+|(teori) |- method generic		|- untuk menyatakan tipe parameter method	|			|
+|	 |				| yang tidak berkaitan dengan tipe parameter	| Minggu 13		|
+|	 |				| kelas.					|			|
+|	 |				| cth : public <T> void A(T a){}		|			|
+|---------------------------------------------------------------------------------------------------------------|
+| 	 |				|						|			|
+| XIII	 |				|						|			|
+|(lab)	 |- Sprint Task			|- latihan ngoding studi kasus Generic class	| Minggu 14		|
+|	 |				| dan Generic method				|			|
+|	 |				|						|			|
+|---------------------------------------------------------------------------------------------------------------|
+|	 |				|						|			|
+| XIV	 |				|						|			|
+|(teori) |- package			|- sebuah penanda batas-batasan pada kelas	|			|
+|	 |				| yang sama, sebagai klasifikasi kelas-kelas	|			|
+|	 |				| tertentu					|			|
+|	 |				|- package juga saling berhubungan dengan	|			|
+|	 |				| kelas/package yang lain			|			|
+|	 |				|						|			|
+| (lab)	 |- perbaiki program		|- maintenance program, bug dll			|	Minggu 15	|
+|	 |				|						|			|
+|---------------------------------------------------------------------------------------------------------------|
+| XV	 |				|						|			|
+|(teori) |- review materi 		|- review materi dari pertemuan pertama hingga	|rangkuman pertemuan	|
+|	 |				| sekarang					| prolan			|
+| (lab)	 |- deskripsi tugas akhir	|- penjelasan bagaimana pengumpulan tugas dan uas|			|
+|---------------------------------------------------------------------------------------------------------------|	
