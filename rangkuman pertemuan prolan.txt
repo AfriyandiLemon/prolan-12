@@ -73,7 +73,7 @@ ________________________________________________________________________________
 |	 |				| var dan data pada suatu kelas 		|			|
 |	 |				| atau method					|			|
 |	 |				|cth :     int Angka				|			|
-|        |				|	(kelas)	(variabel)			|			|
+|        |				|	(tipe data)	(variabel)		|			|
 |	 |				|						|			|
 |(lab)	 | 				|- update program sebelumnya degan adanya	| 	Minggu 4	|
 | 	 |				| konstruktor, method overriding,this dari	|			|
