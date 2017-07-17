@@ -1,0 +1,30 @@
+NIM   : 10114215
+Nama  : Afriyandi Jaya Pranata
+Kelas : PROLAN - 12
+
+
+DESKRIPSI PROGRAM Tabungan :
+program ini adalah sebuah program sistem perbankan yang sedang dalam tahap pengembangan.
+memiliki fitur isi berupa menu:
+1. untuk nasabah
+2. untuk pegawai
+3. tambahan bunga
+4. keluar (untuk mengakhiri program)
+
+program tersebut akan terus bekerja hingga user menekan tombol keluar (4).
+tampilan sebelum menu adalah hasil percobaan dari modifikasi konstruktor kelas Bunga(anak) dari kelas Jasa(bapak).
+
+keterangan detil program ini:
+- hanya sebatas program testing dari pembelajaran pertemuan 1 hingga 15
+- terdapat interface dgn nama "Inter.java"
+- kelas yang mengimplemen adalah Jasa, Nasabah, dan Pegawai
+- method yang diimplemen dari interface adalah Biodata, Tabung, Produk
+- kelas bunga adalah sub kelas dari Jasa. memiliki enkapsulasi dan modifikasi konstruktor. serta setter dan getter pada methodnya.
+- Sedangkan kelas Jasa, Nasabah, Pegawai memiliki method yang sama dari Interface, tapi sedikit berbeda pada isinya.
+-program terpisah menjadi 2 package 
+ 1. package layanan terdiri dari kelas Bunga dan Jasa
+ 2. package tabungan terdiri dari kelas Inter, Nasabah, Pegawai dan Main
+- fitur pada program ini adalah isi biodata pada 2 kelas (Nasabah dan Pegawai), tabung dari input yang disediakan.
+- pada fitur tambahan bunga memungkinkan user untuk input nominal tertentu. besaran nominal yang diinput mempengaruhi
+  berapa bonus bunga yang diterima.
+
